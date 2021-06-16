@@ -31,7 +31,7 @@ f1
 
             configuration "Config_$DscResourceName" {
 
-                Import-DscResource -ModuleName ActiveDirectoryTasks
+                Import-DscResource -ModuleName HypervTasks
 
                 node "localhost_$DscResourceName" {
 

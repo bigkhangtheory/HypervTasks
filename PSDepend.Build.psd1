@@ -19,7 +19,7 @@
     Datum                        = '0.39.0'
     # Module to manage Hierachical Configuration Data
 
-    'Datum.InvokeCommand'       = '0.1.2'
+    'Datum.InvokeCommand'        = '0.1.2'
     # Datum Handler module to encrypt and decrypt secrets in Datum using Dave Wyatt's ProtectedData module
 
     'Datum.ProtectedData'        = 'latest'
@@ -56,30 +56,12 @@
     # DSC Resources
     # -------------------------------------------------------------------------
     
-    ActiveDirectoryDsc           = '6.0.1'
-    # Contains DSC resources for deployment and configuration of Active Directory.
-    # These DSC resources allow you to configure new domains, child domains, and high availability domain controllers, establish cross-domain trusts and manage users, groups and OUs.
+    'xHyper-V'                   = '3.17.0.0'
+    # The xHyper-V module contains DSC resources for deployment and configuration of Hyper-v hosts, virtual machines and related resources.
 
+    ActiveDirectoryDsc           = '6.0.1'
     xPSDesiredStateConfiguration = '9.1.0'
     ComputerManagementDsc        = '8.4.0'
     NetworkingDsc                = '8.2.0'
-    JeaDsc                       = '0.7.2'
-    XmlContentDsc                = '0.0.1'
-    xWebAdministration           = '3.2.0'
-    SecurityPolicyDsc            = '2.10.0.0'
     StorageDsc                   = '5.0.1'
-    Chocolatey                   = '0.0.79'
-    DfsDsc                       = '4.4.0.0'
-    WdsDsc                       = '0.11.0'
-    xDhcpServer                  = '3.0.0'
-    xDscDiagnostics              = '2.8.0'
-    xDnsServer                   = '2.0.0'
-    xFailoverCluster             = '1.16.0'
-    GPRegistryPolicyDsc          = '1.2.0'
-    AuditPolicyDsc               = '1.4.0.0'
-    SqlServerDsc                 = '15.1.1'
-    UpdateServicesDsc            = '1.2.1'
-    xWindowsEventForwarding      = '1.0.0.0'
-    xBitlocker                   = '1.4.0.0'
-    ActiveDirectoryCSDsc         = '5.0.0'
 }

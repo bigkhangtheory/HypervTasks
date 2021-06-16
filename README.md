@@ -1,4 +1,4 @@
-# ActiveDirectoryTasks
+# HypervTasks
 
 Windows PowerShell Desired State Configuration (DSC) provides a configuration platform that is based on open standards. This repo provides a structured project for building re-usable and composable **DSC Configurations** *(DSC Composite Resources)* used to manage and configure Hyper-V.
 
