@@ -22,6 +22,6 @@
       "*.mof": "json"
     },
     "editor.inlineHints.fontFamily": "'CaskaydiaCove NF',Consolas, 'Courier New', monospace",
-    "editor.fontSize": 13
+    "editor.fontSize": 11
   }
 }

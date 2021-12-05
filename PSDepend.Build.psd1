@@ -12,7 +12,7 @@
     # -------------------------------------------------------------------------
     # PowerShell Modules
     # -------------------------------------------------------------------------
-    
+
     BuildHelpers                 = 'latest'
     # Helper functions for PowerShell CI/CD scenarios
 
@@ -28,7 +28,7 @@
     DscBuildHelpers              = 'latest'
     # Build Helpers for DSC Resources and Configurations
 
-    InvokeBuild                  = 'latest'
+    InvokeBuild                  = '5.8.4'
     # Build and test automation in PowerShell
 
     Pester                       = '4.10.1'
@@ -55,7 +55,7 @@
     # -------------------------------------------------------------------------
     # DSC Resources
     # -------------------------------------------------------------------------
-    
+
     'xHyper-V'                   = '3.17.0.0'
     # The xHyper-V module contains DSC resources for deployment and configuration of Hyper-v hosts, virtual machines and related resources.
 
